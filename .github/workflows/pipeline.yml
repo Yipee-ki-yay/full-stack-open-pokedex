@@ -33,7 +33,7 @@ jobs:
           heroku_app_name: "yipee-pokemon" # Must be unique in Heroku
           heroku_email: "mopoz07@gmail.com"
           dontuseforce: false
-          procfile: "web: npm run start-prod"
+          procfile: "web: npm run abba"
           healthcheck: "https://yipee-pokemon.herokuapp.com/health"
           checkstring: "ok"
           delay: 5

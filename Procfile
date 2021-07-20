@@ -1,1 +1,1 @@
-web: npm dfsf
+web: npm start
