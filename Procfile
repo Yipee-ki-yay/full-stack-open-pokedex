@@ -1,1 +1,1 @@
-web: npm startsdfa
+web: npm dfsf
