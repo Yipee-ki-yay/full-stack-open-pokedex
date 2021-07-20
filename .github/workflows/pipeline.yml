@@ -32,4 +32,9 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "yipee-pokemon" # Must be unique in Heroku
           heroku_email: "mopoz07@gmail.com"
+          dontuseforce: false
           procfile: "web: npm run start-prod"
+          healthcheck: "https://yipee-pokemon.herokuapp.com/health"
+          checkstring: "ok"
+          delay: 5
+          rollbackonhealthcheckfailed: true
